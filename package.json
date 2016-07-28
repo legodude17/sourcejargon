@@ -1,0 +1,28 @@
+{
+  "name": "source-jargon",
+  "version": "0.1.0",
+  "description": "A new languange. It is a shorter version of javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js",
+    "build": "node build.js",
+    "start": "npm run build && npm test"
+  },
+  "keywords": [
+    "compiler",
+    "language"
+  ],
+  "author": "JDB",
+  "license": "MIT",
+  "dependencies": {
+    "acorn": "^3.2.0",
+    "escodegen": "^1.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "browserify-derequire": "^0.9.4",
+    "unicode-8.0.0": "^0.1.5"
+  }
+}
